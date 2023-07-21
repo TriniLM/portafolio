@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: var(--primary-font);
+    transition: all ease-out 0.5s;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    /*color*/
+    --primary-color:#fff;
+    --secondary-color:#080202;
+    --tertiary-color:#13CEF5;
+    --quartarian-color:#8DB307;
+    --fondo-oscuro:#eeeeee;
+    /*fuentes*/
+    --primary-font:'Inter', sans-serif;
+    --secondary-font:'Plus Jakarta Sans', sans-serif;
+    /*height header*/
+    --header-heigth:70px;
+    /*color box-shadow btn dark mode*/
+    --box-shadow-top: 2px 2px 3px rgb(110, 110, 110), -2px -2px 5px rgb(255, 255, 255);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    font: inherit;
+}
+li{
+    list-style: none;
+}
+.subtitulo{
+    color: var(--tertiary-color);
+    font-size: 40px;
+    text-align: center;
+    font-family:var(--secondary-font);
+}

@@ -1,0 +1,35 @@
+.header__dark-mode{
+    background-color: rgb(221, 221, 221);
+    width: 75px;
+    height: 35px;
+    border-radius:60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+    box-shadow: var(--box-shadow);
+}
+.header__dark-mode i{
+    font-size: 20px;
+}
+.fa-lightbulb{
+    color:yellow;
+}
+.dark__mode-interruptor{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: var(--tertiary-color);
+    transform: translateX(35px);
+}
+
+.btn__dark-activo .dark__mode-interruptor{
+   transform: translateX(-5px);
+}
+.btn__dark-activo{
+    background-color:rgb(49, 49, 49);
+}
+.btn__dark-activo .fa-moon{
+    color: rgb(168, 168, 168);
+}

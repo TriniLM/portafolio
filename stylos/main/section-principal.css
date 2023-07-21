@@ -1,0 +1,95 @@
+.main_section-principal{
+    width: 100%;
+    height: 600px;
+    background-color: var(--primary-color);
+    overflow: hidden;
+}
+.prueva{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 100%;
+    height: 100%;
+
+}
+.section__principal-texto{
+    z-index: 1000;
+}
+.principal__texto-titulo{
+    color: var(--tertiary-color);
+    font-size: 40px;
+    /*text-shadow: -1px -1px 20px var(--tertiary-color);*/
+}
+.principal__texto-subtitulo{
+    color:var(--quartarian-color);
+    font-size: 30px;
+}
+.principal__texto-bienvenida{
+    color: var(--secondary-color);
+    font-size: 20px;
+}
+.section__principal-redes{
+    color:var(--secondary-color);
+    font-size: 40px;
+    display: flex;
+    justify-content:space-between;
+    width: 50%;
+    padding: 10px 0px 10px 0px;
+}
+.capa__transparente{
+    display: none;
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    z-index: 991;
+    background-color: rgba(0, 0, 0, 0.178);
+}
+.conten__principal-img{
+    width: auto;
+  
+}
+.conten__principal-img img{
+    width: 550px;
+    z-index: 998;
+}
+.wave{
+    position: relative;
+    bottom: 155px;
+    width: 100%;
+    z-index:997;
+    overflow: hidden;
+}
+path{
+    fill:var(--tertiary-color);   
+}
+
+/*redes iconos hover flotando*/
+.fa-linkedin:hover{
+    color:#0A62BA;
+}
+.fa-envelope:hover{
+    color:#EA4335;
+}
+.fa-discord:hover{
+    color: #5865f2;    ;
+}
+.redes__items:hover{
+    animation-name: icon;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transform:scale3d(2) ;
+    transition: all ease-out 0.3s;
+}
+@keyframes icon {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-5px);
+    }
+    100%{
+        transform: translateY(-10);
+    }
+}

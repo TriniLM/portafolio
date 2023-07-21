@@ -1,0 +1,45 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px 0px 15px;
+    width: 100%;
+    height:var(--header-heigth);
+    position: sticky;
+    top: 0px;
+    z-index: 10000;
+    background-color:var(--primary-color);
+    backdrop-filter: blur(10px);
+}
+
+
+/*stylos para el titulo del header*/
+.conten__title{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.header__logo{
+    width: 70px;
+}
+.header__nav{
+    flex-basis: 55%;
+    font-family: var
+}
+.header__nav-conten{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+.header__nav-items{
+    color: var(--secondary-color);
+    font-size: 20px;
+    transition: all ease-out 0.1s;
+}
+.header__nav-items:hover{
+    color:var(--quartarian-color);
+}
+
+/*modo oscuro*/
+

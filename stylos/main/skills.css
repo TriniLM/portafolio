@@ -1,0 +1,37 @@
+.skills{
+    background-color: var(--primary-color);
+    width: 100%;
+    height: auto;
+    min-height: 670px;
+    padding-top:var(--header-heigth);
+    padding-bottom: 80px;
+    text-align: center;
+}
+.skills__titulo{
+    margin-bottom: 80px;
+}
+.skills__items-conten{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.skills__items{
+    width: 200px;
+    background-color:var(--fondo-oscuro);
+    height:200px;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 20px;
+}
+.fa-html5{
+    color: #e44f26;
+}
+.fa-css3-alt{
+    color: #1572b6;
+}
+.fa-square-js{
+    color: rgb(230, 230, 3);
+}
